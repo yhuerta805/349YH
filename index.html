@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="IMG_6504.JPG" alt="Yesenia's Photo" class="animated-photo">
+            <h1 id="typewriter"></h1>
+            <p>
+                Hi! I'm Yesenia Huerta, a student at CSUF. I am a senior and ready to graduate Spring 2025. 
+                My major is Computer Science! I have always loved computers and learning how to use them. 
+                The part that is most fun for me is building something from scratch! I get to design and create 
+                things from my imagination. Thank you for visiting my portfolio. I hope you learn a thing or two about me.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Yesenia Huerta. All rights reserved.</p>
+    </footer>
+    
+
+    <script>
+        const text = "Welcome to My Portfolio"; 
+        const speed = 100; 
+        let i = 0;
+
+        function typeWriter() {
+            if (i < text.length) {
+                document.getElementById("typewriter").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        window.onload = typeWriter;
+    </script>
+</body>
+</html>
