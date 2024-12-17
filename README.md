@@ -1,2 +1,4 @@
 # 349YH
 CPSC 349 Website Yesenia Huerta
+
+My webiste is up and ready to be viewed. I spent a lot of time making this and trying to make it as true to myself as possible. I had a lot of fun with this project. It allowed me the oppertunity to use some of what i learned this semester. I feel like this was such a good learning oppertunity! I am glad to say i was able to get it to deploy on github pages! I hope everyone is able to see it as well. The webiste is fully functional! I am very glad i was able to find a free service "fromspree" that allows my contact form to be functional, so i look forward to recieving an email. If i am not wrong the webpage should be fully functional just by clicking the URL and then selecting the tabs on top depending what you would like to view. Thank you for your time and effort! 
